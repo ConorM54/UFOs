@@ -1,17 +1,22 @@
 class UFOreport1{
-  String dateTime;
+  String date;
+  String time;
   String city;
-  String duration;
   String description;
+  String duration;
+ 
   
   UFOreport1(String line)
   {
+    //Seperate string into individual elements
     String[] elements = line.split(",");
    
-    dateTime =  elements[0];
+    String[] parts =  elements[0].split(" ");
+    date = parts[0];
+    time = parts[1];
     city = elements[1];
-    duration = elements[2];
-    description = elements[3];
+    description = elements[2];
+    duration = elements[3];
   }
   
 }

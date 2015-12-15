@@ -107,7 +107,7 @@
 9/24/15 05:00,San Jose,Light,1 second
 9/24/15 00:00,Novato,Cigar,1.5 minutes
 9/23/15 20:45,Fairfield,Circle,3 seconds
-9/21/15 23:55,Manhattan Beach,,10 minutes
+9/21/15 23:55,Manhattan Beach,Unknown,10 minutes
 9/20/15 20:45,Carpinteria,Formation,1 minute
 9/19/15 21:04,Roseville,Formation,10 seconds
 9/19/15 20:55,Moro Bay,Unknown,4 minutes
@@ -117,7 +117,7 @@
 9/18/15 22:00,Sherman Oaks,Chevron,8 seconds
 9/18/15 21:10,Modesto,Light,18 minutes
 9/18/15 20:00,Hayward,Changing,1 hours
-9/18/15 11:00,San Diego,,5 minutes
+9/18/15 11:00,San Diego,Unknown,5 minutes
 9/18/15 06:30,Madera,Light,10 minutes
 9/17/15 22:55,Loma Linda,Unknown,15 seconds
 9/17/15 19:48,Orange,Sphere,3 minutes
@@ -213,9 +213,9 @@
 7/19/15 22:12,Santa Barbara,Circle,2 minutes
 7/18/15 20:15,Palm Springs,Circle,5 minutes
 7/18/15 12:21,Chico,Cone,1 hour
-7/18/15 02:30,Rancho Palos Verdes,Triangle,17  seconds
+7/18/15 02:30,Rancho Palos Verdes,Triangle,17 seconds
 7/17/15 23:00,Bakersfield,Unknown,1 minutes
-7/17/15 17:00,Mount Shasta,Circle,4 hours
+7/17/15 17:00,Mount Shasta,Circle,2 hours
 7/16/15 21:10,Palmdale,Triangle,2 minutes
 7/16/15 20:35,Escondido,Light,2 minutes
 7/16/15 01:45,Encinitas,Circle,30 minutes
