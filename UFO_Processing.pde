@@ -1,13 +1,16 @@
-ArrayList<UFOreport1> reports = new ArrayList<UFOreport1>();
-float maxAmount;
+ArrayList<UFOreport1> reports = new ArrayList<UFOreport1>(); //Holds the UFO report data
+float maxAmount;  
 float minAmount;
 float border;
-ArrayList<Times> TimeinSec = new ArrayList<Times>();
-ArrayList<Times> TimeinMin = new ArrayList<Times>();
-ArrayList<Shape> Shapes = new ArrayList<Shape>();
-color Green = color(50 ,255, 10);
+ArrayList<Times> TimeinSec = new ArrayList<Times>(); //Holds the list of times less than 1 min
+ArrayList<Times> TimeinMin = new ArrayList<Times>(); //Holds the list of times more than 1 min
+ArrayList<Shape> Shapes = new ArrayList<Shape>(); //Hold the list of diffrent descriptions of UFO
+ArrayList <Float> OrgTimes = new ArrayList <Float>();
+color Green = color(50 ,255, 10); //Color to be used across sketch
 color[] colors;
-boolean BarGraphCheck = false;
+boolean BarGraphCheck = false; //Checks to see if Bar graph being displayed
+boolean DoughnutCheck = false; //Checks to see if Doughnut graph being dispayed
+float radius; //Radius for doughnut
 void setup()
 {
   minim = new Minim(this);
@@ -27,7 +30,7 @@ void setup()
   
  
 }
-
+//Reads in the data from csv file
 void loadData()
 {
   String[] lines = loadStrings("UFOs1.csv");
@@ -38,9 +41,10 @@ void loadData()
     reports.add(report);
   }  
 }
+
+//Sorts durations into times less than 1 min and times greater
 void Processing_Time()
 {
-  
   
   for(int i=0; i<reports.size(); i++)
   {
@@ -71,7 +75,7 @@ void Processing_Time()
   }
 }
 
-
+//Counts number of unique decriptions given and adds them to an array list
 void CountingShapes()
 {
   
@@ -102,6 +106,7 @@ void CountingShapes()
     }
   }
 }
+//Creates a range of random colors to be used in graphs
 void assignColors ()
 {
  

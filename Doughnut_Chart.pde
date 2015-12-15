@@ -1,7 +1,4 @@
 
-boolean DoughnutCheck = false;
- ArrayList <Float> OrgTimes = new ArrayList <Float>();
-float radius;
 void Doughnut_Chart()
 {
   
@@ -124,6 +121,7 @@ void drawDoughnut()
          s = "Sightings lasting more than 30 minutes: ";
          break;
       }
+      textAlign(LEFT);
       text(s + "" + OrgTimes.get(i), 50, 20);
       
     }

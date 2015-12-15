@@ -84,6 +84,7 @@ void Time_Graph(ArrayList<Times> times)
   }    
 }
 
+//Counts the number of unique dates
 float CountingDates(ArrayList<Times> times)
 {
   float uniqueDateCount = 1;

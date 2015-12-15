@@ -19,17 +19,14 @@ void Menu()
    
   //Draws menu
   background(0);
-  fill(Green);
-  stroke(Green);
-  rectMode(CORNERS);
-  rect(border, border, width - border, height - border);
+  
   //Co-ordinates for title in menu
   float HeadlineY = border +50;
   float ListPosX = border + 50;
   font = createFont("x-files.ttf", 20);
-  textFont(font, 18);
-  stroke(0);
-  fill(0);
+  textFont(font, 22);
+  stroke(Green);
+  fill(Green);
   textAlign(CENTER);
   text("Unidentified Flying Objects: California Reports", width/2, HeadlineY);
   
